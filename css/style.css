@@ -1,0 +1,117 @@
+/* font-family: 'Lato', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E6E6E6;
+    padding: 100px 0;
+    font-family: 'Lato', sans-serif;
+}
+.main-container{
+    width: 50%;
+    margin: auto;
+    min-height: 100vh;
+}
+.background{
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/m3lRbCCA_o.jpg);
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: cover;
+    
+}
+.background h1{
+    color: white;
+    font-size: 44px;
+    width: fit-content;
+    font-weight: 300;
+    padding-top: 30px;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border-bottom-style:outset ;
+}
+.background p{
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.form-container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    
+}
+.form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    
+}
+.name-area{
+    display: flex;
+    justify-content: space-between;
+}
+.f-name, .l-name{
+    width: 48%;
+}
+.f-name input, .l-name input{
+    width: 100%;
+}
+label{
+    display: block;
+  color: #4f6fad;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 18px;
+ 
+  
+}
+form input{
+    width: 49%;
+    padding: 10px 0 10px 10px;
+    font-size: 18px;
+    
+}
+form placeholder{
+    
+}
+hr{
+    border-width: 1px;
+    color: red;
+}
+.t-area{
+    width: 100%;
+}
+.submit-area{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.submit-area input{
+    width: 20%;
+    background-color: #4f6fad;
+    padding: 15px 0;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 5px solid #374d78;
+}
+.submit-area input:hover{
+    background-color: #4875cd;
+}
+.button{
+    padding: 50px;
+    background-color: #4f6fad;
+    font-size: 18px;
+}
+.submit-area p{
+    color: #4f6fad;
+    padding-left: 5px;
+    font-size: 14px;
+}
+span{
+    color: tomato;
+}
